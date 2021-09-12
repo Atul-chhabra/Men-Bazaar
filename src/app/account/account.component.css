@@ -1,0 +1,112 @@
+.breadcrumnb {
+  margin-top: 20px;
+  color: black;
+}
+.active a {
+  color: grey;
+  border-right: 1px solid rgb(65, 61, 61);
+  font-size: small;
+}
+li a {
+  color: rgb(78, 75, 75);
+  font-size: small;
+}
+.page_heading {
+  font-family: "Bauhaus 93";
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.about {
+  font-family: "Arial monospaced for SAP";
+}
+
+.left {
+  margin-top: 20px;
+}
+.right {
+  border-left: 1px solid black;
+  margin-top: 20px;
+}
+.submit-button {
+  margin-top: 70px;
+  color: white;
+}
+.submit-button2 {
+  margin-top: 30px;
+  color: white;
+}
+.reset-button {
+  margin-top: 20px;
+  color: black;
+}
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  border-color: rgb(0, 0, 0);
+}
+.txt {
+  font-family: Bodoni MT;
+  font-size: 15px;
+  text-align: right;
+  font-weight: bold;
+}
+.txt p {
+  color: rgb(95, 93, 93);
+  font-weight: normal;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #4e4e4e !important;
+  border-color: rgb(63, 63, 63);
+}
+.txt2 {
+  font-family: Bodoni MT;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+}
+.txt2 p {
+  color: rgb(95, 93, 93);
+  font-weight: normal;
+}
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:visited {
+  background-color: #000000 !important;
+  border-color: rgb(63, 63, 63);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.blue {
+  background-color:blue;
+  
+}
+
+.red {
+  background-color:red;
+
+}
+
+.yellow {
+  background-color:yellow;
+  
+}
+.pink {
+  background-color:pink;
+
+}

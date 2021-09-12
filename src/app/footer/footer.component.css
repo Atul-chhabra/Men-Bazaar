@@ -1,0 +1,73 @@
+.footer {
+  margin-top: 20px;
+  background-color: #eaf8f8;
+  color: black;
+  padding: 10px;
+}
+a,
+i,
+span {
+  color: black;
+}
+.menu-bottom {
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+.footer-menu-links {
+  font-family: "Bahnschrift SemiBold";
+  margin-top: 1%;
+  font-size: medium;
+  color: blue;
+}
+.contact-info {
+  font-family: "Bahnschrift SemiBold";
+  margin-top: 1%;
+  font-size: medium;
+  color: blue;
+}
+.service-section {
+  background-color: aqua;
+  margin-top: 3%;
+
+  color: black;
+  font-family: "Bahnschrift SemiBold";
+  font-size: medium;
+  padding: 20px;
+}
+.service-text {
+  /* background-color: blue; */
+  width: auto;
+  text-align: center;
+}
+.service-icon {
+  /* background-color: red; */
+  width: auto;
+  height: auto;
+  size: 15px;
+  position: relative;
+  text-align: center;
+}
+.instagram-section {
+  text-align: center;
+  padding-bottom: 20px;
+
+  margin-top: 3%;
+  font-family: "Bahnschrift SemiBold";
+}
+.mailing-list {
+  font-family: "Bahnschrift SemiBold";
+  text-align: center;
+}
+
+.Go {
+  text-align: left;
+}
+.clearfix maillist-options {
+  display: inline;
+}
+.subscription {
+  margin-top: 1%;
+  /* background-color: aqua; */
+}
+

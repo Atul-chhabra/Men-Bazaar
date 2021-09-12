@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "imgsrc": "https://m.media-amazon.com/images/I/81-zfzVUXqL._AC_UL320_.jpg",
+      "title": "Blackberrys",
+      "price": "699",
+      "stock": 18,
+      "description": "1195 Blackberrys NECK T-SHIRT",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "imgsrc": "https://m.media-amazon.com/images/I/81Eq4j-B1ZL._AC_UL320_.jpg",
+      "title": "Marvel",
+      "price": "690",
+      "description": " Marvel Formal Shirt",
+      "stock": 12
+    },
+    {
+      "id": 3,
+      "imgsrc": "https://m.media-amazon.com/images/I/51mjLMt9XOL._AC_UL320_.jpg",
+      "title": "Arrow Sports",
+      "description": " Arrow Sports NECK T-SHIRT",
+      "price": "1259",
+      "stock": 28
+    },
+    {
+      "id": 4,
+      "imgsrc": "https://m.media-amazon.com/images/I/81Eq4j-B1ZL._AC_UL320_.jpg",
+      "title": "Wrangler",
+      "description": " Wrangler Formal Shirt",
+      "price": "790",
+      "stock": 3
+    },
+    {
+      "id": 5,
+      "imgsrc": "https://m.media-amazon.com/images/I/61RIGQhvzOL._AC_UL320_.jpg",
+      "title": "Proline",
+      "description": "1195 Proline NECK T-SHIRT",
+      "price": "100",
+      "stock": 167
+    },
+    {
+      "id": 6,
+      "imgsrc": "https://m.media-amazon.com/images/I/91SF1PibFML._AC_UL320_.jpg",
+      "title": "ASICS",
+      "description": "1195 ASICS NECK T-SHIRT",
+      "price": "400",
+      "stock": 78
+    },
+    {
+      "id": 7,
+      "imgsrc": "https://m.media-amazon.com/images/I/616xchp1ECL._AC_UL320_.jpg",
+      "title": "Denim Jeans",
+      "description": "1195 Denim Jeans",
+      "price": "900",
+      "stock": 98
+    },
+    {
+      "id": 8,
+      "imgsrc": "https://m.media-amazon.com/images/I/71W5le6yqxL._AC_UL320_.jpg",
+      "title": "Levi's",
+      "price": "1019",
+      "description": "1195 Levi's NECK T-SHIRT",
+      "stock": 34
+    },
+    {
+      "id": 9,
+      "imgsrc": "https://m.media-amazon.com/images/I/818GeQkUL8L._AC_UL320_.jpg",
+      "title": "Puma",
+      "price": "890",
+      "description": "1195 Puma NECK T-SHIRT",
+      "stock": 34
+    },
+    {
+      "imgsrc": "https://m.media-amazon.com/images/I/81LGkFoaeeL._AC_UL320_.jpg",
+      "title": "COTTONOPOLIS LONDON",
+      "description": "1195 COTTONOPOLIS NECK T-SHIRT",
+      "price": "599",
+      "id": 10,
+      "stock": 12
+    },
+    {
+      "imgsrc": "https://m.media-amazon.com/images/I/81-zfzVUXqL._AC_UL320_.jpg",
+      "title": "Blog",
+      "description": "1195 Blog NECK T-SHIRT",
+      "price": "222",
+      "id": 11,
+      "stock": 23
+    },
+    {
+      "imgsrc": "https://m.media-amazon.com/images/I/616xchp1ECL._AC_UL320_.jpg",
+      "title": "CAMEL",
+      "description": "1195 CAMEL Fit Jeans",
+      "price": "999",
+      "id": 12,
+      "stock": 56
+    }
+  ]
+}

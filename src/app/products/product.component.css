@@ -1,0 +1,158 @@
+.txt {
+  font-family: Bodoni MT;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px dashed rgb(80, 79, 79);
+}
+
+.prod {
+  margin-left: 1%;
+  /* background-color: pink; */
+}
+.updated {
+  /* background-color: green; */
+  margin-top: 5%;
+}
+.card1 {
+  margin-top: 15px;
+  border-bottom: 1px dashed rgb(80, 79, 79);
+}
+#title {
+  font-size: large;
+  font-family: "Bodoni MT";
+  position: relative;
+}
+#price {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Bell MT";
+}
+#ship {
+  color: green;
+  font-weight: 500;
+  font-family: "Bell MT";
+}
+.taskbar {
+  color: black;
+}
+.active a {
+  color: grey;
+  border-right: 1px solid rgb(65, 61, 61);
+  font-size: small;
+}
+li a {
+  color: rgb(78, 75, 75);
+  font-size: small;
+}
+.page_heading {
+  font-family: "Bahnschrift";
+  font-size: 30px;
+  border-bottom: 1px dashed rgb(110, 105, 105);
+}
+.about {
+  font-family: "Arial monospaced for SAP";
+}
+.menu {
+  display: inline-block;
+  margin: 5%;
+  height: 10;
+}
+.head {
+  border-bottom: 1px dashed rgb(110, 105, 105);
+}
+#sort {
+  text-align: right;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: relative;
+  text-align: center;
+  font-family: arial;
+  margin-top: 25px;
+}
+.products {
+  margin-top: 8px;;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+/* .card button {
+  border: none;
+  outline: 0;
+  padding: 5px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  
+
+  font-size: 18px;
+} */
+
+.trade {
+  bottom: 0;
+  padding-top: 0.5rem !important /* @TODO temp !!!*/;
+  position: relative;
+
+  transition: transform 0.2s;
+}
+.trade:hover {
+  transform: translateY(0.25rem);
+}
+.button {
+  background-color: #000000;
+  border: 1px solid #000000;
+  box-shadow: 0 3px 0 #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  color: #ffffff;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 10px;
+}
+
+.button--primary {
+  /* background-color: hsl(210, 5%, 41%);
+  border-color: hsl(210, 5%, 36%); */
+  box-shadow: 0 5px 0 hsl(210, 5%, 20%);
+}
+
+.button--primary:hover {
+  background-color: hsl(210, 5%, 51%);
+  border-color: hsl(0, 0%, 21%);
+}
+/* .image {
+  height: 250px;
+  background-color: blue;
+} */
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  justify-content: space-around;
+}
+
+.child {
+  flex: 1 0 30%; /* explanation below */
+  background-color: white;
+}
+.abc {
+  background-color: red;
+}

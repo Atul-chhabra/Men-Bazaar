@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "firstname": "Admin",
+      "lastname": "System",
+      "address": "Sharda Nagar",
+      "phone": "9557075920",
+      "UserType": "Admin",
+      "city": "Saharanpur",
+      "apt": "#1201",
+      "state": "UttarPradesh",
+      "zip": "247001",
+      "country": "India",
+      "taxid": "9897",
+      "comments": "Welcome to Appllication"
+    },
+    {
+      "email": "atulchhabra26gmail.com",
+      "password": "123456",
+      "firstname": "Atul",
+      "lastname": "Chhabra",
+      "address": "Sunway",
+      "company": "Wipro Technologies",
+      "apt": "1101",
+      "city": "Pune",
+      "UserType": "Normal",
+      "state": "Maharastra",
+      "zip": "411057",
+      "taxid": "9897",
+      "phone": "7017562308",
+      "comments": "Hey!",
+      "id": 2
+    }
+  ]
+}

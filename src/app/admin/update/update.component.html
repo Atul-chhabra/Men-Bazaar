@@ -1,0 +1,122 @@
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <!--Header-->
+    <!-- <div class="modal-header"> -->
+    <h4 class="title" id="myModalLabel">UPDATE PRODUCT</h4>
+
+    <!-- </div> -->
+    <!--Body-->
+    <div class="modal-body">
+      <div class="row">
+        <!-- <div class="col-lg-4">
+              <div class="row">
+                <h4></h4>
+              </div>
+            </div> -->
+        <div class="col-lg-12">
+          <!-- <form [formGroup]="ngForm2" #update>
+            <label> Image Link:</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="http link"
+              formControlName="imgsrc"
+              value="{{ obj.imgsrc }}"
+            />
+
+            <br />
+            <label> Image Title:</label>
+            <input
+              type="text"
+              placeholder="Enter Product Title to update"
+              class="form-control"
+              formControlName="title"
+              value="John"
+            />
+            <br />
+            <label> Image Price:</label>
+            <input
+              type="text"
+              placeholder="Enter Price"
+              class="form-control"
+              formControlName="price"
+            />
+          </form> -->
+          <form
+            class="form-group"
+            #update="ngForm"
+            (ngSubmit)="updateProduct()"
+          >
+            <label For="img">Image Link:</label>
+            <input
+              type="text"
+              class="form-control"
+              name="imgsrc"
+              id="imgsrc"
+              placeholder="{{ obj.imgsrc }}"
+              [(ngModel)]="obj.imgsrc"
+              required
+              ngModel
+              #img="ngModel"
+            />
+            <span class="error" *ngIf="img.touched && img.invalid"
+              >Enter Image Link</span
+            ><br />
+
+            <label For="title">Image Title:</label>
+            <input
+              type="text"
+              class="form-control"
+              name="title"
+              placeholder="{{ obj.title }}"
+              [(ngModel)]="obj.title"
+              required
+              ngModel
+              #title="ngModel"
+            />
+            <span class="error" *ngIf="title.touched && title.invalid"
+              >Enter Image Title</span
+            ><br />
+
+            <label For="Price">Image Price:</label>
+            <input
+              type="text"
+              class="form-control"
+              name="price"
+              placeholder="{{ obj.price }}"
+              [(ngModel)]="obj.price"
+              required
+              ngModel
+              #Price="ngModel"
+            />
+            <span class="error" *ngIf="Price.touched && Price.invalid"
+              >Enter Image Price</span
+            ><br />
+
+            <div class="modal-footer">
+              <button class="btn btn-danger" type="button" (click)="close()">
+                Close
+              </button>
+              &nbsp;
+              <button
+                class="btn btn-primary"
+                type="submit"
+                [disabled]="update.invalid"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <!-- <div class="modal-footer">
+      <button class="btn btn-danger" (click)="close()">Close</button>
+      &nbsp;
+      <button class="btn btn-primary" type="submit" (click)="updateProduct()">
+        Submit
+      </button>
+    </div> -->
+  </div>
+</div>

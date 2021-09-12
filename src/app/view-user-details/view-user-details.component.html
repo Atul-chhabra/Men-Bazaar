@@ -1,0 +1,78 @@
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <!--Header-->
+    <!-- <div class="modal-header"> -->
+    <h4 class="title" id="myModalLabel">User Registeration Detail's</h4>
+
+    <!-- </div> -->
+    <!--Body-->
+    <div class="modal-body">
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td scope="row">1</td>
+            <th>ID</th>
+            <td scope="row">{{ userData.id }}</td>
+          </tr>
+          <tr>
+            <td scope="row">2</td>
+            <th>FirstName</th>
+            <td>{{ userData.firstname }}</td>
+          </tr>
+          <tr>
+            <td scope="row">3</td>
+            <th>Last Name</th>
+            <td>{{ userData.lastname }}</td>
+          </tr>
+          <tr>
+            <td scope="row">4</td>
+            <th>Phone Number</th>
+            <td>{{ userData.phone }}</td>
+          </tr>
+          <tr>
+            <td scope="row">5</td>
+            <th>User Type</th>
+            <td>{{ userData.UserType }}</td>
+          </tr>
+          <tr>
+            <td scope="row">6</td>
+            <th>Email</th>
+            <td>{{ userData.email }}</td>
+          </tr>
+
+          <tr>
+            <td scope="row">7</td>
+            <th>City</th>
+            <td>{{ userData.city }}</td>
+          </tr>
+          <tr>
+            <td scope="row">8</td>
+            <th>State:</th>
+            <td>{{ userData.state }}</td>
+          </tr>
+          <tr>
+            <td scope="row">9</td>
+            <th>Address</th>
+            <td>{{ userData.address }}</td>
+          </tr>
+          <tr>
+            <td scope="row">10</td>
+            <th>ZIP Code</th>
+            <td>{{ userData.zip }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Footer-->
+    <div class="modal-footer">
+      <button class="btn btn-primary" (click)="close()">Close</button>
+      &nbsp;
+      <button class="btn btn-danger" [routerLink]="['/home']" (click)="Out()">
+        Log Out
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- </div> -->
+<!-- Modal: modalCart -->

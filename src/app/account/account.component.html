@@ -1,0 +1,85 @@
+<!-- Header Component -->
+<app-header></app-header>
+
+<div class="container-fluid">
+  <div class="container-fluid">
+    <h1 class="page_heading">My Account</h1>
+    <br />
+  </div>
+</div>
+<div></div>
+<div class="container-fluid account">
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6 left">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5"></div>
+      <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
+        <div class="txt" style="font-family: Bodoni MT">NEW CUSTOMERS</div>
+        <br />
+        <div class="txt">
+          <p>
+            If you don't have an account, please proceed by clicking the
+            following button to continue first-time registration.
+          </p>
+        </div>
+
+        <div class="submit-button">
+          <button
+            type="button"
+            (click)="onRegister()"
+            class="btn btn-primary btn-black"
+          >
+          <i class="fa fa-plus">&nbsp;</i>
+            Create Account
+          </button>
+        </div>
+      </div>
+
+      </div>
+      
+    </div>
+    <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6 left right">
+      <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
+        <div class="txt2" style="font-family: Bodoni MT">
+          RETURNING CUSTOMERS
+        </div>
+
+        <div class="txt2"><p>Please log in to your account.</p></div>
+        <br />
+        <form [formGroup]="ngForm" (ngSubmit)="logIn()" #form="ngForm">
+          <div class="">
+            <input
+              type="text"
+              placeholder="Email Id"
+              class="form-control"
+              formControlName="email"
+            /><br />
+
+            <input
+              type="password"
+              placeholder="Enter Password"
+              class="form-control"
+              formControlName="password"
+            />
+          </div>
+          <div class="submit-button2">
+            <button
+              type="submit"
+              class="btn btn-primary btn-black"
+              [disabled]="form.invalid"
+            >
+            <i class="fa fa-sign-in-alt"></i> LOG IN TO MY
+              ACCOUNT
+            </button>
+          </div>
+          <div class="reset-button">
+            <button type="button" onclick="" class="btn btn-dark btn-white">
+              <i class="fas fa-redo"></i> RESET MY PASSWORD
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-5"></div>
+    </div>
+  </div>
+</div>

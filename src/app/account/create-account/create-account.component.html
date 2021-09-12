@@ -1,0 +1,196 @@
+<!-- Header Component -->
+<app-header></app-header>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5 signup">
+      <div class="container-fluid">
+        <h1 class="page_heading">CREATE AN ACCOUNT</h1>
+
+        <h3 class="page_heading" style="font-family: Bodoni MT">
+          NEW CUSTOMER
+        </h3>
+        <br />
+        <!-- <div class="container-fluid"> -->
+        <form [formGroup]="ngForm" (ngSubmit)="onSignup()" #signup="ngForm">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="Email Id"
+                  class="form-control"
+                  formControlName="email"
+                  required
+                /><br />
+
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  class="form-control"
+                  formControlName="password"
+                  required
+                />
+              </div>
+              <div class="col-lg-6"></div>
+            </div>
+
+            <h3 class="page_heading" style="font-family: Bodoni MT">
+              CUSTOMER INFORMATION
+            </h3>
+            <br />
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-control"
+                  formControlName="firstname"
+                  required
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="form-control"
+                  formControlName="lastname"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                  type="text"
+                  placeholder="User Type -Admin or Normal"
+                  class="form-control"
+                  formControlName="UserType"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                <input
+                  type="text"
+                  placeholder="Address"
+                  class="form-control"
+                  formControlName="address"
+                  required
+                />
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <input
+                  type="text"
+                  placeholder="Suit/Apt#"
+                  class="form-control"
+                  formControlName="apt"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                  type="text"
+                  placeholder="City"
+                  class="form-control"
+                  formControlName="city"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <input
+                  type="text"
+                  placeholder="Country"
+                  class="form-control"
+                  formControlName="country"
+                  required
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <input
+                  type="text"
+                  placeholder="State"
+                  class="form-control"
+                  formControlName="state"
+                  required
+                />
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <input
+                  type="password"
+                  placeholder="ZIP"
+                  class="form-control"
+                  formControlName="zip"
+                  required
+                />
+              </div>
+            </div>
+
+            <br />
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                  type="text"
+                  placeholder="Tax Id"
+                  class="form-control"
+                  formControlName="taxid"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                  type="text"
+                  placeholder="Phone"
+                  class="form-control"
+                  formControlName="phone"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input
+                  type="text"
+                  placeholder="Comments"
+                  class="form-control"
+                  formControlName="comments"
+                  required
+                />
+              </div>
+            </div>
+            <br />
+            <div class="submit-button2">
+              <button
+                type="submit"
+                class="btn btn-primary btn-black"
+                [disabled]="signup.invalid"
+              >
+                <i class="glyphicon glyphicon-check">&nbsp; </i> Register
+              </button>
+            </div>
+          </div>
+        </form>
+        <br />
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <div class="col-lg-7"></div>
+  </div>
+  <div></div>
+</div>

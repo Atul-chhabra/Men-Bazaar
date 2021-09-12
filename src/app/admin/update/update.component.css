@@ -1,0 +1,9 @@
+h4 {
+  text-align: center;
+  font-family: Bodoni MT;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.error {
+  color: red;
+}

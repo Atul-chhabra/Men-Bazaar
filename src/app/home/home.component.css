@@ -1,0 +1,83 @@
+.icons {
+  float: right;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  /* font-family: "Bernard MT Condensed"; */
+  font-size: xx-large;
+  margin-top: 10px;
+  color: rgba(72, 117, 240, 0.856);
+}
+
+.icon {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.models {
+  margin-top: 3%;
+}
+.footer {
+  margin-top: 20px;
+  background-color: #eaf8f8;
+  color: black;
+  padding: 10px;
+}
+a,
+i,
+span {
+  color: black;
+}
+.menu-bottom {
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+.footer-menu-links {
+  font-family: "Bahnschrift SemiBold";
+  margin-top: 1%;
+  font-size: medium;
+  color: blue;
+}
+.contact-info {
+  font-family: "Bahnschrift SemiBold";
+  margin-top: 1%;
+  font-size: medium;
+  color: blue;
+}
+.service-section {
+  background-color: aqua;
+  margin-top: 3%;
+
+  color: black;
+  font-family: "Bahnschrift SemiBold";
+  font-size: medium;
+  padding: 20px;
+}
+.service-text {
+  /* background-color: blue; */
+  width: auto;
+  text-align: center;
+}
+.service-icon {
+  /* background-color: red; */
+  width: auto;
+  height: auto;
+  size: 15px;
+  position: relative;
+  text-align: center;
+}
+.instagram-section {
+  text-align: center;
+  padding-bottom: 20px;
+
+  margin-top: 3%;
+  font-family: "Bahnschrift SemiBold";
+}
+
+.cover {
+  background-color: red;
+  height: 550px;
+}
+

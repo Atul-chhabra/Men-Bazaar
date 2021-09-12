@@ -1,0 +1,80 @@
+<!-- ADD Product Page -->
+
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <!--Header-->
+    <h4 class="title" id="myModalLabel">ADD PRODUCT</h4>
+
+    <!--Body-->
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <form class="form-group" #form="ngForm" (ngSubmit)="addProduct()">
+            <label For="img">Image Link:</label>
+
+            <input
+              type="text"
+              class="form-control"
+              name="imgsrc"
+              placeholder="Enter Product Link"
+              required
+              ngModel
+              #img="ngModel"
+            />
+
+            <span class="error" *ngIf="img.touched && img.invalid"
+              >Enter Image Link</span
+            ><br />
+
+            <label For="title">Image Title:</label>
+
+            <input
+              type="text"
+              class="form-control"
+              name="title"
+              placeholder="Enter Product Name"
+              required
+              ngModel
+              #title="ngModel"
+            />
+
+            <span class="error" *ngIf="title.touched && title.invalid"
+              >Enter Image Title</span
+            ><br />
+
+            <label For="Price">Image Price:</label>
+
+            <input
+              type="text"
+              class="form-control"
+              name="price"
+              placeholder="Enter Product Price"
+              required
+              ngModel
+              #Price="ngModel"
+            />
+
+            <span class="error" *ngIf="Price.touched && Price.invalid"
+              >Enter Image Price</span
+            ><br />
+
+            <!--Footer-->
+            <div class="modal-footer">
+              <button class="btn btn-danger" type="button" (click)="close()">
+                Close
+              </button>
+              &nbsp;
+              <button
+                class="btn btn-primary"
+                type="submit"
+                [disabled]="form.invalid"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
